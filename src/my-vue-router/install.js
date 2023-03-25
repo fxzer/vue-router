@@ -32,6 +32,11 @@ function install(_Vue) {
       return <a>{this.$slots.default}</a>;
     },
   });
+  Vue.component("router-view", {
+    render() {
+      return <div>router-view</div>;
+    },
+  });
 }
 
 export default install;
