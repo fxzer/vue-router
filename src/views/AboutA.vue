@@ -5,9 +5,7 @@
 <script>
 export default {
   name: "AboutA",
-  mounted() {
-    console.log("A mounted", this.$router);
-  },
+  mounted() {},
 };
 </script>
 

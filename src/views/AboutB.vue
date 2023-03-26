@@ -6,7 +6,7 @@
 export default {
   name: "AboutB",
   mounted() {
-    console.log("B mounted", this.$router);
+    console.log("B mounted");
   },
 };
 </script>

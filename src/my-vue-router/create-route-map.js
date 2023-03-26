@@ -22,6 +22,8 @@ function createRouteMap(routes) {
       });
     }
   }
-  console.log("[ pathMap ]-19", pathMap);
+  return {
+    pathMap,
+  };
 }
 export default createRouteMap;
